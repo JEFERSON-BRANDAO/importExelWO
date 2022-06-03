@@ -1,0 +1,350 @@
+**** Log file opened by process 7120 at 2017-07-07 10:39:34 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.36373
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug\importExelWO.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 10.19.208.22, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-07-07 10:39:34.026 [Thread 10]
+SAP.Middleware.Connector.RfcTypeConversionException: PARAMETER SCHEDULED_DATE of FUNCTION ZRFC_SFC_NSG_0001B (SETTER): cannot convert String into DATE ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 20172906 into DATE (yyyyMMdd) ---> System.FormatException: The DateTime represented by the string is not supported in calendar System.Globalization.GregorianCalendar.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcScalarMetadataDate.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Log file opened by process 6216 at 2017-07-10 10:19:02 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.36373
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug\importExelWO.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 10.19.208.22, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-07-10 10:19:02.394 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD GAMNG of STRUCTURE ZWO_HROHS (SETTER): cannot convert String into BCD[7:3] ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 00 00 00 35 20 00 0c  into a BCD because of invalid character ' ' in integer part
+   at SAP.Middleware.Connector.RfcScalarMetadataBcd.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcScalarMetadata.ConvertObject(Object value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+**** Log file opened by process 3428 at 2017-07-10 10:23:27 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.36373
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug\importExelWO.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 10.19.208.22, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-07-10 10:23:27.133 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD GAMNG of STRUCTURE ZWO_HROHS (SETTER): cannot convert String into BCD[7:3] ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 00 00 00 35 20 00 0c  into a BCD because of invalid character ' ' in integer part
+   at SAP.Middleware.Connector.RfcScalarMetadataBcd.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcScalarMetadata.ConvertObject(Object value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+**** Log file opened by process 1996 at 2017-07-10 10:26:26 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.36373
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug\importExelWO.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 10.19.208.22, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-07-10 10:26:26.458 [Thread 9]
+SAP.Middleware.Connector.RfcTypeConversionException: FIELD GAMNG of STRUCTURE ZWO_HROHS (SETTER): cannot convert String into BCD[7:3] ---> SAP.Middleware.Connector.RfcTypeConversionException: Cannot convert 0 0 0 53 32 0 12  into a BCD because of invalid character ' ' in integer part
+   at SAP.Middleware.Connector.RfcScalarMetadataBcd.ConvertString(String value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcScalarMetadata.ConvertObject(Object value, Object& currentValue)
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, Object value)
+**** Log file opened by process 3476 at 2017-07-11 12:13:54 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.36373
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug\importExelWO.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 127.0.0.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-07-11 12:13:54.697 [Thread 10]
+Failure to create pool for destination R/3 (ORIGINAL) [NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Tue Jul 11 12:13:54 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-07-11 12:13:54.724 [Thread 10]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Tue Jul 11 12:13:54 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 8532 at 2017-07-11 12:14:59 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.36373
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug\importExelWO.vshost.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 127.0.0.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-07-11 12:14:59.549 [Thread 10]
+Failure to create pool for destination R/3 (ORIGINAL) [NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Tue Jul 11 12:14:59 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-07-11 12:14:59.585 [Thread 10]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Tue Jul 11 12:14:59 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     2
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2017-07-11 12:15:03.748 [Thread 10]
+Failure to create pool for destination R/3 (ORIGINAL) [NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Tue Jul 11 12:15:03 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     4
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-07-11 12:15:03.784 [Thread 10]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Tue Jul 11 12:15:03 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     4
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2017-07-11 12:15:09.035 [Thread 10]
+Failure to create pool for destination R/3 (ORIGINAL) [NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Tue Jul 11 12:15:09 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     6
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-07-11 12:15:09.092 [Thread 10]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '10.18.222.111:3300' not reached
+TIME        Tue Jul 11 12:15:09 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3286
+DETAIL      NiPConnect2: 10.18.222.111:3300
+SYSTEM CALL connect
+ERRNO       10065
+ERRNO TEXT  WSAEHOSTUNREACH: No route to host
+COUNTER     6
+
+   at SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+>> Error entry 2017-07-11 12:16:12.465 [Thread 10]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '10.18.222.111:3300' broken
+TIME        Tue Jul 11 12:16:12 2017
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      nixxi.cpp
+LINE        5087
+DETAIL      NiIRead: P=10.18.222.111:3300; L=10.19.208.22:61551
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     11
+
+   at SAP.Middleware.Connector.CpicConnection.CpicReceive(Int32 timeout)
+   at SAP.Middleware.Connector.CpicConnection.Read(Byte* buffer, Int32 offset, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   at SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   at SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Log file opened by process 7144 at 2017-07-12 12:01:26 (UTC-04:00 Central Brazilian Standard Time)
+
+SAP .NET Connector 3.0 with file version 3.0.10.0 running on 32-bit .NET Framework 4.0.30319.36373
+Program: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug\importExelWO.exe
+Working directory: C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug
+Operating system: Windows 7 Professional 32-bit Service Pack 1
+Processor: 4x Intel x86
+SAP release: 720, Kernel release: 720, Kernel patch level: 324
+Hostname: BR1CN00112, IP address: 10.19.208.22, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2017-07-12 12:01:26.748 [Thread 1]
+Failure to create pool for destination R/3 (ORIGINAL) [NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR. PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect. Please re-enter ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect. Please re-enter
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2017-07-12 12:01:26.830 [Thread 1]
+[NAME=R/3 ASHOST=10.18.222.111 SYSNR=00 USER=NSBGBR. PASSWD=******** CLIENT=802 LANG=EN POOL_SIZE=5 IDLE_TIMEOUT=60]
+SAP.Middleware.Connector.RfcLogonException: Name or password is incorrect. Please re-enter ---> SAP.Middleware.Connector.RfcAbapMessageException: Name or password is incorrect. Please re-enter
+   at SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   at SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   at SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   at SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   at SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   --- End of inner exception stack trace ---
+   at SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination)
+   at SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   at SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   at SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   at SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)

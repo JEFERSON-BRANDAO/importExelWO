@@ -1,0 +1,24 @@
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug\importExelWO.exe.config
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug\importExelWO.exe
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\bin\Debug\importExelWO.pdb
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\obj\x86\Debug\Interop.CalBase.dll
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\obj\x86\Debug\Interop.CalConnector.dll
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\obj\x86\Debug\Interop.CalCR3.dll
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\obj\x86\Debug\importExelWO.csproj.ResolveComReference.cache
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\obj\x86\Debug\importExelWO.Form1.resources
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\obj\x86\Debug\importExelWO.Properties.Resources.resources
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\obj\x86\Debug\importExelWO.csproj.GenerateResource.Cache
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\obj\x86\Debug\importExelWO.exe
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\obj\x86\Debug\importExelWO.pdb
+C:\Users\jefferson.brandao\Documents\Visual Studio 2010\Projects\importExelWO\importExelWO\obj\x86\Debug\importExelWO.csprojResolveAssemblyReference.cache
+C:\Users\bc1g7962\Downloads\progr\programas\importExelWO\importExelWO\bin\Debug\importExelWO.exe.config
+C:\Users\bc1g7962\Downloads\progr\programas\importExelWO\importExelWO\bin\Debug\importExelWO.exe
+C:\Users\bc1g7962\Downloads\progr\programas\importExelWO\importExelWO\bin\Debug\importExelWO.pdb
+C:\Users\bc1g7962\Downloads\progr\programas\importExelWO\importExelWO\obj\x86\Debug\importExelWO.csproj.AssemblyReference.cache
+C:\Users\bc1g7962\Downloads\progr\programas\importExelWO\importExelWO\obj\x86\Debug\importExelWO.csproj.ResolveComReference.cache
+C:\Users\bc1g7962\Downloads\progr\programas\importExelWO\importExelWO\obj\x86\Debug\importExelWO.Form1.resources
+C:\Users\bc1g7962\Downloads\progr\programas\importExelWO\importExelWO\obj\x86\Debug\importExelWO.Properties.Resources.resources
+C:\Users\bc1g7962\Downloads\progr\programas\importExelWO\importExelWO\obj\x86\Debug\importExelWO.csproj.GenerateResource.cache
+C:\Users\bc1g7962\Downloads\progr\programas\importExelWO\importExelWO\obj\x86\Debug\importExelWO.csproj.CoreCompileInputs.cache
+C:\Users\bc1g7962\Downloads\progr\programas\importExelWO\importExelWO\obj\x86\Debug\importExelWO.exe
+C:\Users\bc1g7962\Downloads\progr\programas\importExelWO\importExelWO\obj\x86\Debug\importExelWO.pdb
